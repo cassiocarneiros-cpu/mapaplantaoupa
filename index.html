@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#061a1e" />
+  <meta name="description" content="Sistema Digital do Mapa do Plantão — UPA de Humildes" />
+  <title>Mapa do Plantão · UPA de Humildes</title>
+
+  <link rel="manifest" href="./manifest.json" />
+  <link rel="icon" type="image/svg+xml" href="./icons/favicon.svg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <div class="topbar-logo" aria-hidden="true">
+        <i data-lucide="heart-pulse"></i>
+      </div>
+      <div class="topbar-title">
+        <span class="topbar-name">UPA de Humildes</span>
+        <span class="topbar-sub">Mapa do Plantão · Digital</span>
+      </div>
+    </div>
+
+    <div class="hero">
+      <h1>Sistema de Registro de Plantão</h1>
+      <p>Selecione o turno para preencher o mapa do plantão e enviar via WhatsApp.</p>
+    </div>
+
+    <div class="divider">
+      <div class="div-line"></div>
+      <div class="div-txt">Tipo de Plantão</div>
+      <div class="div-line"></div>
+    </div>
+
+    <div class="cards">
+      <a class="card" href="./plantao.html?turno=diurno">
+        <div class="card-icon"><i data-lucide="sun"></i></div>
+        <div class="card-body">
+          <div class="card-tag">Diurno</div>
+          <div class="card-title">Plantão Diurno</div>
+          <div class="card-desc">07h às 19h · Equipe do dia</div>
+        </div>
+        <div class="card-arrow"><i data-lucide="chevron-right"></i></div>
+      </a>
+
+      <a class="card" href="./plantao.html?turno=noturno">
+        <div class="card-icon"><i data-lucide="moon"></i></div>
+        <div class="card-body">
+          <div class="card-tag">Noturno</div>
+          <div class="card-title">Plantão Noturno</div>
+          <div class="card-desc">19h às 07h · Equipe da noite</div>
+        </div>
+        <div class="card-arrow"><i data-lucide="chevron-right"></i></div>
+      </a>
+    </div>
+
+    <div class="install-banner">
+      <i data-lucide="smartphone"></i>
+      <div><strong>Dica:</strong> adicione este app à tela inicial do celular para acesso rápido durante o plantão.</div>
+    </div>
+  </div>
+
+  <div id="net-status" class="net-status"><span class="net-dot"></span><span id="net-label">Online</span></div>
+  <button id="theme-toggle" class="floating-theme" aria-label="Alternar tema" title="Alternar tema claro/escuro"><i data-lucide="sun"></i></button>
+
+  <script src="https://unpkg.com/lucide@0.474.0/dist/umd/lucide.min.js"></script>
+  <script src="./common.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "Mapa do Plantão - UPA de Humildes",
+  "short_name": "Mapa Plantão",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#061a1e",
+  "theme_color": "#061a1e",
+  "description": "Sistema digital para registro e envio do Mapa do Plantão via WhatsApp.",
+  "lang": "pt-BR",
+  "icons": [
+    { "src": "./icons/icon-192.svg", "sizes": "192x192", "type": "image/svg+xml", "purpose": "any maskable" },
+    { "src": "./icons/icon-512.svg", "sizes": "512x512", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
