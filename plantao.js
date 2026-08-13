@@ -9,6 +9,9 @@
     { key: "servicosGerais",   label: "Serviços Gerais",        icon: "brush",         emoji: "🧹" },
     { key: "recepcao",         label: "Recepção",               icon: "bell",          emoji: "🔔" },
     { key: "farmacia",         label: "Farmácia",               icon: "pill",          emoji: "💊" },
+    { key: "raioX",            label: "Raio X",                 icon: "scan",          emoji: "📷" },
+    { key: "copeira",          label: "Copeira",                icon: "coffee",        emoji: "☕" },
+    { key: "maqueiro",         label: "Maqueiro",               icon: "stretcher",     emoji: "🛏️" },
     { key: "portaria",         label: "Portaria",               icon: "door-open",     emoji: "🚪" },
     { key: "motorista",        label: "Motorista",              icon: "car",           emoji: "🚗" },
     { key: "ambulancia",       label: "Ambulância",             icon: "ambulance",     emoji: "🚑" }
