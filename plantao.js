@@ -10,6 +10,7 @@
     { key: "recepcao",         label: "Recepção",               icon: "bell",          emoji: "🔔" },
     { key: "farmacia",         label: "Farmácia",               icon: "pill",          emoji: "💊" },
     { key: "raioX",            label: "Raio X",                 icon: "scan",          emoji: "📷" },
+    { key: "laboratorio",      label: "Laboratório",            icon: "flask",         emoji: "🔬" },
     { key: "copeira",          label: "Copeira",                icon: "coffee",        emoji: "☕" },
     { key: "maqueiro",         label: "Maqueiro",               icon: "stretcher",     emoji: "🛏️" },
     { key: "portaria",         label: "Portaria",               icon: "door-open",     emoji: "🚪" },
