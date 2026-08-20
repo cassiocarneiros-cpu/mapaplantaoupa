@@ -10,9 +10,9 @@
     { key: "recepcao",         label: "Recepção",               icon: "bell",          emoji: "🔔" },
     { key: "farmacia",         label: "Farmácia",               icon: "pill",          emoji: "💊" },
     { key: "raioX",            label: "Raio X",                 icon: "scan",          emoji: "📷" },
-    { key: "laboratorio",      label: "Laboratório",            icon: "flask",         emoji: "🔬" },
+    { key: "laboratorio",      label: "Laboratório",            icon: "beaker",        emoji: "🔬" },
     { key: "copeira",          label: "Copeira",                icon: "coffee",        emoji: "☕" },
-    { key: "maqueiro",         label: "Maqueiro",               icon: "stretcher",     emoji: "🛏️" },
+    { key: "maqueiro",         label: "Maqueiro",               icon: "bed",           emoji: "🛏️" },
     { key: "portaria",         label: "Portaria",               icon: "door-open",     emoji: "🚪" },
     { key: "motorista",        label: "Motorista",              icon: "car",           emoji: "🚗" },
     { key: "ambulancia",       label: "Ambulância",             icon: "ambulance",     emoji: "🚑" }
