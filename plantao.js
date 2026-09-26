@@ -19,11 +19,12 @@
   ];
 
   var PATIENT_FIELDS = [
-    { key: "enfPed",     label: "Enfermaria Pediátrica", icon: "baby",          emoji: "👶" },
-    { key: "enfFem",     label: "Enfermaria Feminina",   icon: "user-round",    emoji: "👩" },
-    { key: "enfMasc",    label: "Enfermaria Masculina",  icon: "user",          emoji: "👨" },
-    { key: "isolamento", label: "Isolamento",            icon: "shield-alert",  emoji: "🛡️" },
-    { key: "salaRea",    label: "Sala Vermelha (REA)",   icon: "zap",           emoji: "⚡" }
+    { key: "salaObsNbz", label: "Sala de Observação / NBZ", icon: "eye",           emoji: "🩺" },
+    { key: "enfPed",     label: "Enfermaria Pediátrica",    icon: "baby",          emoji: "👶" },
+    { key: "enfFem",     label: "Enfermaria Feminina",      icon: "user-round",    emoji: "👩" },
+    { key: "enfMasc",    label: "Enfermaria Masculina",     icon: "user",          emoji: "👨" },
+    { key: "isolamento", label: "Isolamento",               icon: "shield-alert",  emoji: "🛡️" },
+    { key: "salaRea",    label: "Sala Vermelha (REA)",      icon: "zap",           emoji: "⚡" }
   ];
 
   var FLOW_FIELDS = [
